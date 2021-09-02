@@ -1,0 +1,333 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    max-width: 100%;
+    max-height: 100vh;
+    font-family: "poppins", sans-serif;
+}
+
+/* HEADER STYLES */
+
+.header {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 20px 0 20px;
+}
+
+.arrow-bg {
+    width: 40px;
+    height: 40px;
+    top: 40px;
+    left: 16px;
+    border: 1px solid #eff0f7;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: .5rem;
+}
+.arrow-bg2 {
+    width: 40px;
+    height: 40px;
+    top: 40px;
+    left: 16px;
+    background-color: #4680ff;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: .5rem;
+}
+
+.arrow-bg img {
+    width: 20px;
+    height: 20px;
+}
+
+/* FIRST SECTION STYLES */
+
+.img-fig {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.fig {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.real-fig {
+    width: 104px;
+    height: 104px;
+    border-radius: 31.3962px;
+    background-color: #D9DBE9;
+    margin: auto;
+}
+
+.figure-text {
+    margin: .6rem 0 0 0;
+}
+
+.figure-text h5 {
+    font-family: "poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    color: #4e4b66;
+}
+
+.figure-text p {
+    font-family: "poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: .75rem;
+    line-height: 1.75rem;
+    color: #6e7191;
+}
+
+/* SECOND SECTION STYLES */
+
+.icons {
+    display: flex;
+    align-items: center;
+    margin: 18px 48px; 
+}
+
+.message {
+    width: 50px;
+    height: 50px;
+    top: 274px;
+    left: 52px;
+    background-color: #00ba88;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1rem;
+}
+
+.phone {
+    width: 50px;
+    height: 50px;
+    top: 274px;
+    left: 122px;
+    background-color: #4680ff;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 3rem;
+}
+
+.video {
+    width: 50px;
+    height: 50px;
+    top: 274px;
+    left: 192px;
+    background-color: #f55858;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inbox {
+    width: 50px;
+    height: 50px;
+    top: 274px;
+    left: 262px;
+    background-color: #d9dbe9;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons .message {
+    margin: auto;
+}
+.icons .phone {
+    margin: auto;
+}
+.icons .video {
+    margin: auto;
+}
+.icons .inbox {
+    margin: auto;
+}
+
+.message img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.phone img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.video img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.inbox img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+/* THIRD SECTION STYLES */
+
+.search-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 18px 0 0 0;
+}
+
+.search-input input {
+    width: 100%;
+    height: 4.125%;
+    left: 0px;
+    top: 349px;
+    background: #f7f7fc;
+    border: none #f7f7fc;
+    padding: .5rem;
+}
+
+/* FOURTH, FIFTH AND SIXTH SECTION STYLES */
+
+.contacts {
+    margin: 5px 0 0 0;
+}
+
+.contacts-number {
+    display: flex;
+}
+
+.contacts-mobile {
+    font-family: "poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1rem;
+    line-height: 1.75rem;
+    color: #14142B;
+}
+
+.contacts-number .contacts-img {
+    margin-left: auto;
+}
+
+.contacts {
+    max-width: 100%;
+    margin: 30px 20px 0 20px;
+}
+
+.contacts-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contacts-img .contacts-comment {
+    margin-right: 2.5rem;
+}
+
+.contacts-img .contacts-phone {
+    margin-right: 1rem;
+}
+
+.contacts-text {
+    font-family: "poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: .875rem;
+    line-height: 1.75rem;
+    color: #6E7191;
+}
+
+/* SEVENTH SECTION STYLES */
+
+.nav-section {
+    display: flex;
+    align-items: center;
+}
+
+.navigations {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5.2rem auto 3rem auto;
+    
+}
+.real-fig1 {
+    width: 50px;
+    height: 50px;
+    border-radius: 16px;
+    background-color: #443df6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+
+}
+
+.real-fig2 {
+    width: 50px;
+    height: 50px;
+    border-radius: 16px;
+    background-color: #d9dbe9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+
+}
+
+.real-fig3 {
+    width: 50px;
+    height: 50px;
+    border-radius: 16px;
+    background-color: #34eab9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+
+}
+
+.fig-text {
+    margin-top: 1rem;
+    font-family: "poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: .75rem;
+    line-height: 1.75rem;
+    color: #6E7191;
+    text-align: center;
+}
+
+.fig2 {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 3rem;
+}
